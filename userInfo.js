@@ -21,5 +21,11 @@ const modifiedNames = formatArrayStrings(names, processedNumbers);
 const userProfiles = createUserProfiles(names, modifiedNames);
 
 console.log(userProfiles);
-
-
+// Output:
+// [
+//     { originalName: 'Alice', modifiedName: 'alice', id: 1 },
+//     { originalName: 'Bob', modifiedName: 'BOB', id: 2 },
+//     { originalName: 'Charlie', modifiedName: 'charlie', id: 3 },
+//     { originalName: 'David', modifiedName: 'DAVID', id: 4 },
+//     { originalName: 'Eve', modifiedName: 'eve', id: 5 }
+// ]
