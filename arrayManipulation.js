@@ -38,3 +38,6 @@ const strings =["My","Mom","is","the","best"];
 const formattedArrayStrings = formatArrayStrings(strings,processedNumbers);
 console.log(formattedArrayStrings);
 
+module.exports = {
+    processArray,formatArrayStrings
+  };
